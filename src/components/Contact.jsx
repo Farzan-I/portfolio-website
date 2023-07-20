@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser';
 import { styles } from '../styles';
 import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
-import { slideIn } from '../utils/motion';
+import { slideIn } from '../utils/motion';     
 
 const Contact = () => {
   const formRef = useRef();
@@ -16,9 +16,44 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({...form, [name]: value })
+  }
 
-  const handleSubmit = (e) => {}
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.send(
+      'service_sya0pp8',
+      'template_tulzscn',
+      {
+        from_name: form.name,
+        to_name: 'Farzan',
+        from_email: form.email,
+        to_email: 'farzanimanzadeh@hotmail.co.uk',
+        message: form.message,
+      },
+      'V2EU68RVuZAo-jg0E'
+      )
+      .then(() => {
+        setLoading(false);
+        alert('Thanks for getting in touch! I will get back to you quicker than you can say Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch (if you don\'t know what that is, it\'s a Welsh Town name)');
+
+        setForm({
+          name: '',
+          email: '',
+          message: '',
+        })
+      }, (error) => {
+        setLoading(false)
+
+        console.log(error);
+
+        alert('Something went wrong! Please try again.')
+      })
+  }
   
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
