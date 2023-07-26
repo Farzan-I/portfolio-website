@@ -30,6 +30,7 @@ import erac from "./company/erac.png";
 import langEmp from "./company/langEmp.png";
 import pizzaExp from "./company/pizzaExp.png";
 import pret from "./company/pret.jpeg";
+import axmldn from "./company/axmldn.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -66,6 +67,7 @@ export {
   langEmp,
   pizzaExp,
   pret,
+  axmldn,
   carrent,
   jobit,
   tripguide,
