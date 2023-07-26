@@ -7,8 +7,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import canva from "./tech/canva.png";
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -17,14 +17,20 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import ruby from "./tech/ruby.png";
+import cypress from "./tech/cypress.png";
+import vue from "./tech/vue.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import deVere from "./company/deVere.png";
+import erac from "./company/erac.png";
+import langEmp from "./company/langEmp.png";
+import pizzaExp from "./company/pizzaExp.png";
+import pret from "./company/pret.png";
+import axmldn from "./company/axmldn.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -40,7 +46,7 @@ export {
   menu,
   close,
   css,
-  docker,
+  ruby,
   figma,
   git,
   html,
@@ -49,13 +55,19 @@ export {
   nodejs,
   reactjs,
   redux,
-  tailwind,
-  typescript,
-  threejs,
+  vue,
+  canva,
+  cypress,
   meta,
   shopify,
   starbucks,
   tesla,
+  deVere,
+  erac,
+  langEmp,
+  pizzaExp,
+  pret,
+  axmldn,
   carrent,
   jobit,
   tripguide,
