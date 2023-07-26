@@ -25,12 +25,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import deVere from "./company/deVere.png";
+import deVere from "./company/deVere.jpeg";
 import erac from "./company/erac.png";
 import langEmp from "./company/langEmp.png";
 import pizzaExp from "./company/pizzaExp.png";
-import pret from "./company/pret.png";
-import axmldn from "./company/axmldn.png";
+import pret from "./company/pret.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -67,7 +66,6 @@ export {
   langEmp,
   pizzaExp,
   pret,
-  axmldn,
   carrent,
   jobit,
   tripguide,
