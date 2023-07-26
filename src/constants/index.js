@@ -4,17 +4,17 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  canva,
   html,
   css,
   reactjs,
   redux,
-  tailwind,
+  vue,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
+  ruby,
   meta,
   starbucks,
   tesla,
@@ -22,7 +22,7 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
+  cypress,
 } from "../assets";
 
 export const navLinks = [
@@ -73,20 +73,20 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Vue",
+    icon: vue,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Ruby",
+    icon: ruby,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
   },
   {
     name: "Node JS",
@@ -97,8 +97,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Cypress",
+    icon: cypress,
   },
   {
     name: "git",
@@ -109,8 +109,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Canva",
+    icon: canva,
   },
 ];
 
