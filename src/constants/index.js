@@ -8,7 +8,7 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  jest,
   vue,
   nodejs,
   mongodb,
@@ -16,7 +16,15 @@ import {
   figma,
   ruby,
   meta,
-  starbucks,
+  // starbucks,
+  erac,
+  deVere,
+  acuma,
+  pizzaExp,
+  axmldn,
+  pret,
+  langEmp,
+  cultsig,
   tesla,
   shopify,
   carrent,
@@ -42,19 +50,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Fullstack Web Developer",
     icon: web,
   },
   {
-    title: "ReactJS Developer",
+    title: "Continuous Development",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Designer / Creator",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Project Manager",
     icon: creator,
   },
 ];
@@ -81,16 +89,16 @@ const technologies = [
     icon: vue,
   },
   {
-    name: "Ruby",
-    icon: ruby,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Jest",
+    icon: jest,
   },
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Ruby",
+    icon: ruby,
   },
   {
     name: "MongoDB",
@@ -116,11 +124,37 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Management trainee",
+    company_name: "Enterprise Rent-A-Car",
+    icon: erac,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "November 2014 - December 2015",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Wealth Advisor",
+    company_name: "deVere Group",
+    icon: deVere,
+    iconBg: "#383E56",
+    date: "November 2014 - December 2015",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Wealth Advisor",
+    company_name: "deVere Acuma",
+    icon: acuma,
+    iconBg: "#383E56",
+    date: "November 2014 - December 2015",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
