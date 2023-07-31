@@ -43,7 +43,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)} 
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Recent career changer from a business and management background turned fullstack software developer.
+        Career changer from a business management background to fullstack software developer.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

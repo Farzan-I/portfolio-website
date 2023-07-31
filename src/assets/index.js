@@ -16,7 +16,7 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import jest from "./tech/jest.png";
 import ruby from "./tech/ruby.png";
 import cypress from "./tech/cypress.png";
 import vue from "./tech/vue.png";
@@ -25,12 +25,14 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import deVere from "./company/deVere.jpeg";
 import erac from "./company/erac.png";
-import langEmp from "./company/langEmp.png";
+import deVere from "./company/deVere.png";
+import acuma from "./company/acuma.png";
 import pizzaExp from "./company/pizzaExp.png";
-import pret from "./company/pret.jpeg";
 import axmldn from "./company/axmldn.png";
+import langEmp from "./company/langEmp.png";
+import pret from "./company/pret.jpeg";
+import cultsig from "./company/cultsig.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -54,7 +56,7 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
+  jest,
   vue,
   canva,
   cypress,
@@ -62,12 +64,14 @@ export {
   shopify,
   starbucks,
   tesla,
-  deVere,
   erac,
-  langEmp,
+  deVere,
+  acuma,
   pizzaExp,
-  pret,
   axmldn,
+  pret,
+  langEmp,
+  cultsig,
   carrent,
   jobit,
   tripguide,
