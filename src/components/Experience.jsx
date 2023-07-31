@@ -10,6 +10,25 @@ import { experiences } from '../constants';
 import { SectionWrapper } from '../hoc';``
 import { textVariant } from '../utils/motion';
 
+const Experience = () => {
+  return (
+    <>
+      <motion.div variants={textVariant()}>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Work Experience</h2>
+        <p className={`${styles.sectionSubText} text-center`}>What I have done so far (dev/non-dev)</p>
+      </motion.div>
+
+      <div className="mt-20 flex flex-col">
+        <VerticalTimeline>
+          {experiences.map((experience, index) => (
+            <ExperienceCard key={`experience-${index}`} experience={experience}/>
+          ))}
+        </VerticalTimeline>
+      </div>
+    </>
+  );
+};
+
 const ExperienceCard = ({ experience }) => {
   return ( 
     <VerticalTimelineElement
@@ -45,23 +64,4 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
-const Experience = () => {
-  return (
-    <>
-      <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText} text-center`}>Work Experience</h2>
-        <p className={`${styles.sectionSubText} text-center`}>What I have done so far</p>
-      </motion.div>
-
-      <div className="mt-20 flex flex-col">
-        <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard key={`experience-${index}`} experience={experience}/>
-          ))}
-        </VerticalTimeline>
-      </div>
-    </>
-  );
-};
-
-export default SectionWrapper(Experience, "work");
+export default SectionWrapper(Experience, "");
