@@ -64,4 +64,4 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
-export default SectionWrapper(Experience, "");
+export default SectionWrapper(Experience, "work");
