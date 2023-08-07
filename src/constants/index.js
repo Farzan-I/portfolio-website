@@ -15,8 +15,6 @@ import {
   git,
   figma,
   ruby,
-  meta,
-  // starbucks,
   erac,
   deVere,
   acuma,
@@ -25,12 +23,16 @@ import {
   pret,
   langEmp,
   cultsig,
-  tesla,
-  shopify,
-  carrent,
+  learning,
+  makers,
+  bob,
   jobit,
   tripguide,
   cypress,
+} from "../assets";
+
+import {
+  logo
 } from "../assets";
 
 export const navLinks = [
@@ -124,25 +126,26 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Management trainee",
-    company_name: "Enterprise Rent-A-Car",
+    title: "Management Trainee",
+    company_name: "Enterprise Rent-A-Car (London/Norwich)",
     icon: erac,
-    iconBg: "#383E56",
+    iconBg: "#ffffff",
     date: "November 2014 - December 2015",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Demonstrated my excellent customer service skills in my first role after university by achieving over 90% completely satisfied clients across two separate branches",
+      "Entered the top 25 club in London for upsells, customer service and rentals",
+      "Found my passion for coding through 'Ralph', IBM software to manage car fleet. Never thought anything if it and didn't pursue development roles",
+      "Developed new business through business drop ins and word-of-mouth referrals",
     ],
   },
   {
     title: "Wealth Advisor",
-    company_name: "deVere Group",
+    company_name: "deVere Group (Malta HQ)",
     icon: deVere,
-    iconBg: "#383E56",
-    date: "November 2014 - December 2015",
+    iconBg: "#ffffff",
+    date: "January 2016 - July 2016",
     points: [
+      "My time in Malta - 6am - 7pm work days, studying in my own time and got CISI lvl 1",
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -151,11 +154,13 @@ const experiences = [
   },
   {
     title: "Wealth Advisor",
-    company_name: "deVere Acuma",
+    company_name: "deVere Acuma (Marina Mall, Dubai)",
     icon: acuma,
-    iconBg: "#383E56",
-    date: "November 2014 - December 2015",
+    iconBg: "#ffffff",
+    date: "July 2016 - November 2016",
     points: [
+      "Organised incentives for clients, learnt insurance and other financial derivatives",
+      "More about my time in Dubai etc etc",
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -163,12 +168,13 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Manager",
+    company_name: "Pizza Express (Royal Festival Hall, London)",
+    icon: pizzaExp,
+    iconBg: "#ffffff",
+    date: "December 2016 - November 2017",
     points: [
+      "More about my time in Pizza Express",
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -176,12 +182,13 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Senior Lettings Negotiator",
+    company_name: "AXM London (London)",
+    icon: axmldn,
+    iconBg: "#ffffff",
+    date: "December 2017 - November 2018",
     points: [
+      "More about my time in axm",
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -189,18 +196,125 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Team Leader (Supervisor)",
+    company_name: "Pret A Manger (Oxford Circus, London)",
+    icon: pret,
+    iconBg: "#ffffff",
+    date: "December 2018 - August 2019",
     points: [
+      "More about my time in pret",
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  {
+    title: "Self-teaching programming languages",
+    company_name: "Soon-to-be developer (London)",
+    icon: learning,
+    iconBg: "#ffffff",
+    date: "September 2019 - February 2022",
+    points: [
+      "More about my time learning and covid, learnt html, css and ruby to begin makers properly",
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Farsi to English Interpreter",
+    company_name: "Language Empire (London)",
+    icon: langEmp,
+    iconBg: "#ffffff",
+    date: "January 2020 - December 2021",
+    points: [
+      "More about my time as an interpreter",
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Marketing Executive",
+    company_name: "Cultural Signatures Ltd.",
+    icon: cultsig,
+    iconBg: "#ffffff",
+    date: "March 2020 - December 2020",
+    points: [
+      "More about my time in Cult Sig",
+      "Created website from scratch with no prior coding knowledge",
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Aspiring developer",
+    company_name: "Makers Academy",
+    icon: makers,
+    iconBg: "#ffffff",
+    date: "March 2020 - December 2020",
+    points: [
+      "More about my time in Makers",
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Junior Developer",
+    company_name: "Farzan Imanzadeh",
+    icon: logo,
+    iconBg: "#ffffff",
+    date: "August 2022 - Present",
+    points: [
+      "More about my time freelancing",
+    ],
+  },
+  // {
+  //   title: "React Native Developer",
+  //   company_name: "Tesla",
+  //   icon: tesla,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2021 - Feb 2022",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -232,25 +346,26 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Brains On Brioche",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search for recipes using the ingredients that are at their disposal in their 'fridge'.",
     tags: [
       {
-        name: "react",
+        name: "MERN stack",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Spoonacular API",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Cypress",
         color: "pink-text-gradient",
       },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    ], 
+    image: bob,
+    source_code_link: "https://github.com/Farzan-I/brains-on-brioche",
+    source_code_link_youtube: "https://www.youtube.com/watch?v=Q8ubu80GSio",
   },
   {
     name: "Job IT",
