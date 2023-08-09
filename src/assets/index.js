@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import youtube from "./youtube.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -30,13 +31,16 @@ import deVere from "./company/deVere.png";
 import acuma from "./company/acuma.png";
 import pizzaExp from "./company/pizzaExp.png";
 import axmldn from "./company/axmldn.png";
+import learning from "./company/learning.png";
 import langEmp from "./company/langEmp.png";
-import pret from "./company/pret.jpeg";
+import pret from "./company/pret.png";
 import cultsig from "./company/cultsig.png";
+import makers from "./company/makers.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import bob from "./bob.png";
 
 export {
   logo,
@@ -45,6 +49,7 @@ export {
   mobile,
   web,
   github,
+  youtube,
   menu,
   close,
   css,
@@ -71,8 +76,11 @@ export {
   axmldn,
   pret,
   langEmp,
+  learning,
+  makers,
   cultsig,
   carrent,
   jobit,
   tripguide,
+  bob
 };
