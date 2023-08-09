@@ -1,4 +1,3 @@
-import React from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -59,10 +58,13 @@ const Experience = () => {
     <>
       <div>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience
+          Experience
         </h2>
         <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
+          What I have done so far in my life, 
+        </p>
+        <p className={`${styles.sectionSubText} text-center`}>
+        Including an intensive coding boot camp!
         </p>
       </div>
 
