@@ -11,7 +11,7 @@ const Tech = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h1 className={`${styles.sectionHeadText} text-center`}>Techs</h1>
+        <h1 className={`${styles.sectionHeadText} text-center`}>Technologies</h1>
         <p className={`${styles.sectionSubText} text-center`}>What I have experience using</p>
       </motion.div>
       
