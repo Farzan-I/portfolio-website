@@ -43,7 +43,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)} 
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Career changer from a business management background to fullstack software developer.
+        A career changer from a business background with extensive management experience, 
+        I have worked in numerous full agile teams and have collaborated on several projects using 
+        various technologies (most can be found on my 
+        <a href="https://github.com/Farzan-I" rel="noreferrer" target="_blank">
+            <span className="text-white">GitHub profile</span>
+        </a>). Belmy showcase projectsow are some of 
+        
+        
+        to fullstack software developer.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
