@@ -6,7 +6,6 @@ import {
   javascript,
   canva,
   html,
-  css,
   reactjs,
   jest,
   vue,
@@ -26,9 +25,13 @@ import {
   learning,
   makers,
   bob,
-  jobit,
-  tripguide,
+  calc,
   cypress,
+  youtube,
+  netlify,
+  orchlab,
+  portWebsite,
+  tailwind
 } from "../assets";
 
 import {
@@ -75,8 +78,8 @@ const technologies = [
     icon: html,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
     name: "JavaScript",
@@ -373,50 +376,78 @@ const projects = [
       },
     ], 
     image: bob,
+    otherImage: youtube,
     source_code_link: "https://github.com/Farzan-I/brains-on-brioche",
-    source_code_link_youtube: "https://www.youtube.com/watch?v=Q8ubu80GSio",
+    source_code_link_other: "https://www.youtube.com/watch?v=Q8ubu80GSio",
   },
   {
-    name: "Job IT",
+    name: "Painless Calculator",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Simple, easy, painless calculator web app that enables users to solve mathematical problems without any adverts or distractions.",
     tags: [
       {
-        name: "react",
+        name: "Vanilla JS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Netlify",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: calc,
+    otherImage: netlify,
+    source_code_link: "https://github.com/Farzan-I/simple-calculator",
+    source_code_link_other: "https://painless-calculator.netlify.app",
   },
   {
-    name: "Trip Guide",
+    name: "Orchlab Strings",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Made for disbaled, colour blind users, this app mimics string instruments and allows users to pluck or bow the 'strings'.",
     tags: [
       {
-        name: "nextjs",
+        name: "Vue.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "External sounds",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Netlify",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: orchlab,
+    otherImage: netlify,
+    source_code_link: "https://github.com/gawainhewitt/orchlab-strings",
+    source_code_link_other: "https://orchlab-strings.netlify.app/play",
+  },
+  {
+    name: "Portfolio Website",
+    description:
+      "Website to demonstrate my skills and abilities. Users can see my experience and get in touch to collaborate.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Netlify",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portWebsite,
+    otherImage: netlify,
+    source_code_link: "https://github.com/Farzan-I/portfolio-website",
+    source_code_link_other: "https://farzanimanzadeh.netlify.app/",
   },
 ];
 
