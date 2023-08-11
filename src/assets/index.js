@@ -9,7 +9,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import canva from "./tech/canva.png";
-import css from "./tech/css.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -21,11 +20,8 @@ import jest from "./tech/jest.png";
 import ruby from "./tech/ruby.png";
 import cypress from "./tech/cypress.png";
 import vue from "./tech/vue.png";
+import tailwind from "./tech/tailwind.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import erac from "./company/erac.png";
 import deVere from "./company/deVere.png";
 import acuma from "./company/acuma.png";
@@ -37,10 +33,11 @@ import pret from "./company/pret.png";
 import cultsig from "./company/cultsig.png";
 import makers from "./company/makers.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import bob from "./bob.png";
+import calc from "./painless-calc.png";
+import netlify from "./netlify.png";
+import orchlab from "./orchlab.png";
+import portWebsite from "./portWebsite.png";
 
 export {
   logo,
@@ -52,7 +49,6 @@ export {
   youtube,
   menu,
   close,
-  css,
   ruby,
   figma,
   git,
@@ -65,10 +61,6 @@ export {
   vue,
   canva,
   cypress,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   erac,
   deVere,
   acuma,
@@ -79,8 +71,10 @@ export {
   learning,
   makers,
   cultsig,
-  carrent,
-  jobit,
-  tripguide,
-  bob
+  bob,
+  calc,
+  netlify,
+  orchlab,
+  portWebsite,
+  tailwind
 };
