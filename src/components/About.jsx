@@ -43,15 +43,24 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)} 
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
+        First of all, allow me to thank you for visiting my website. A lot of blood, sweat, caffeine and tears went into making this happen! 
+        I hope you have a great experience and learn exactly who the person behind the name (that most people don&apos;t know how to pronounce) is and what I&apos;m all about.
+
+        <br/>
+        <br/>
+
         A career changer from a business background with extensive management experience, 
         I have worked in numerous full agile teams and have collaborated on several projects using 
-        various technologies (most can be found on my 
-        <a href="https://github.com/Farzan-I" rel="noreferrer" target="_blank">
-            <span className="text-white">GitHub profile</span>
-        </a>). Belmy showcase projectsow are some of 
-        
-        
-        to fullstack software developer.
+        various technologies. My fascination for coding started while in my first role after university but I never took it seriously as imposter syndrome kicked in very early and I pursued other careers.
+
+        <br/>
+        <br/>
+
+        Only in my role as a marketing executive did I realise I had a natural knack for software development. It was here where I put my doubts aside and helped create the  
+        <a href="https://www.culturalsignatures.com/" rel="noreferrer" target="_blank">
+          <span className="text-white"> company&apos;s website</span>
+        </a>. I enjoyed working on the website so much so that I spent my spare time studying HTML, CSS and Vanilla JavaScript. I then took the bold move to join one of Europe&apos;s leading coding 
+        bootcamps to expand on my new found knowledge, where I got to grips with what it takes to be a professional software developer. I have been freelancing/consulting ever since graduating and looking forward to starting my first professional role as a developer!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
