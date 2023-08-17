@@ -14,13 +14,13 @@
 }
 
 .text-outline {
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #FE0039;
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: #002154;
 }
 
 .text-outline-small {
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: #002154;
+  -webkit-text-stroke-width: 0.4px;
+  -webkit-text-stroke-color: #4a4949;
 }
 
 .hash-span {
@@ -41,6 +41,24 @@
     #434343,
     #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.blue-gradient {
+  background: #0a03e197; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #00001d,
+    #0a03e1cd
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #00001d,
+    #0a03e1cd
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.reddish {
+  background: #070442cd,
 }
 
 .red-gradient {
