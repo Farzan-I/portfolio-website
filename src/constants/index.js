@@ -279,15 +279,6 @@ const experiences = [
       "Developed new business through business drop ins and word-of-mouth referrals",
     ],
   },
-
-
-
-
-
-
-
-
-
   // {
   //   title: "React Native Developer",
   //   company_name: "Tesla",
@@ -381,9 +372,9 @@ const projects = [
     source_code_link_other: "https://www.youtube.com/watch?v=Q8ubu80GSio",
   },
   {
-    name: "Painless Calculator",
+    name: "Nostalgic Calculator",
     description:
-      "Simple, easy, painless calculator web app that enables users to solve mathematical problems without any adverts or distractions.",
+      "Simple, easy, nostalgic calculator web app that enables users to solve mathematical problems without any adverts or distractions.",
     tags: [
       {
         name: "Vanilla JS",
@@ -401,7 +392,7 @@ const projects = [
     image: calc,
     otherImage: netlify,
     source_code_link: "https://github.com/Farzan-I/simple-calculator",
-    source_code_link_other: "https://painless-calculator.netlify.app",
+    source_code_link_other: "https://nostalgic-calculator.netlify.app",
   },
   {
     name: "Orchlab Strings",

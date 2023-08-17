@@ -34,7 +34,7 @@ import cultsig from "./company/cultsig.png";
 import makers from "./company/makers.png";
 
 import bob from "./bob.png";
-import calc from "./painless-calc.png";
+import calc from "./nostalgic-calc.png";
 import netlify from "./netlify.png";
 import orchlab from "./orchlab.png";
 import portWebsite from "./portWebsite.png";
