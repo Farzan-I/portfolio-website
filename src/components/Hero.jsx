@@ -13,7 +13,7 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white text-outline`}>Hi<span className="text-[#FE0039]">,</span> I<span className="text-[#FE0039]">&apos;</span>m Farzan</h1>
+          <h1 className={`${styles.heroHeadText} text-white text-outline`}>Hi, I&apos;m <span className="text-[#FE0039]">Farzan</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100 text-outline-small`}>A recent career changer with a background in business 
             looking for my first role as a developer! <br className="sm:block hidden"/>
           </p>
@@ -25,17 +25,17 @@ const Hero = () => {
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+          <div className="w-[35px] h-[84px] rounded-3xl border-4 border-white flex justify-center items-start p-2">
             <motion.dev 
               animate={{
-                y: [0, 24, 0]
+                y: [0, 50, 0]
               }}
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
                 repeatType: 'loop'
               }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
+              className="w-3 h-3 rounded-full bg-white mb-1"
             />
           </div>
         </a>
