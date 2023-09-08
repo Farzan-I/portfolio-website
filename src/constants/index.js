@@ -1,5 +1,5 @@
 import {
-  mobile,
+  // mobile,
   backend,
   creator,
   web,
@@ -59,10 +59,6 @@ const services = [
     icon: web,
   },
   {
-    title: "Continuous Development",
-    icon: mobile,
-  },
-  {
     title: "Designer / Creator",
     icon: backend,
   },
@@ -70,6 +66,35 @@ const services = [
     title: "Project Manager",
     icon: creator,
   },
+    // {
+  //   title: "Continuous Development",
+  //   icon: mobile,
+  // },
+];
+
+const skills = [
+  "HTML 5",
+  "Tailwind",
+  "JavaScript",
+  "React JS",
+  "Vue.js",
+  "Jest",
+  "Node.js",
+  "Ruby",
+  "MongoDB",
+  "Cypress",
+  "Git",
+  "Figma",
+  "Canva",
+  "CSS",
+  "GraphQL",
+  "PostgreSQL",
+  "MySQL",
+  "Node.js",
+  "Express",
+  "RSpec",
+  "Redux",
+  "npm"
 ];
 
 const technologies = [
@@ -78,7 +103,7 @@ const technologies = [
     icon: html,
   },
   {
-    name: "Tailwind CSS",
+    name: "Tailwind",
     icon: tailwind,
   },
   {
@@ -90,7 +115,7 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Vue",
+    name: "Vue.js",
     icon: vue,
   },
   {
@@ -98,7 +123,7 @@ const technologies = [
     icon: jest,
   },
   {
-    name: "Node JS",
+    name: "Node.js",
     icon: nodejs,
   },
   {
@@ -129,13 +154,17 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Junior Developer",
+    title: "Junior Software Engineer",
     company_name: "Farzan Imanzadeh",
     icon: logo,
     iconBg: "#ffffff",
     date: "August 2022 - Present",
     points: [
       "More about my time freelancing",
+      "",
+      "Collaborated with a leading artist to create an accessible app for disabled music lovers",
+      "Dived deeper into the core principles of software ",
+      ""
     ],
   },
   {
@@ -189,6 +218,9 @@ const experiences = [
     date: "September 2019 - February 2022",
     points: [
       "More about my time learning and covid, learnt html, css and ruby to begin makers properly",
+      "Not afraid of a new challenge, I decided to give software engineering a shot and did not look back",
+      "Created command line terminal games using Ruby (can be found on my Github)",
+      "Made ",
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -442,4 +474,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, skills, technologies, experiences, testimonials, projects };
