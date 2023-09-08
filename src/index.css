@@ -23,6 +23,10 @@
   -webkit-text-stroke-color: #4a4949;
 }
 
+.text-tertiary {
+  color: rgb(227, 227, 227);
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
@@ -47,12 +51,12 @@
   background: #0a03e197; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
-    #00001d,
+    #09094f,
     #0a03e1cd
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
-    #00001d,
+    #09094f,
     #0a03e1cd
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -75,6 +79,12 @@
   background: "#00cea8";
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+}
+
+.red-yellow-gradient {
+  background: "#00cea8";
+  background: linear-gradient(90.13deg, #ce1500 1.9%, #ffe731 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #ce1500 1.9%, #ffe731 97.5%);
 }
 
 .orange-text-gradient {
