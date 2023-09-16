@@ -47,6 +47,10 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.bg-card {
+  background: #2a2c2c
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -97,8 +101,8 @@
 
 .red-yellow-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #ce1500 1.9%, #ffe731 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #ce1500 1.9%, #ffe731 97.5%);
+  background: linear-gradient(90.13deg, #10bfcf 1.9%, #b419ec 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #10bfcf 1.9%, #b419ec 97.5%);
 }
 
 .orange-text-gradient {
