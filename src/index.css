@@ -33,34 +33,44 @@
   display: block;
 }
 
-.bg-new {
+.bg-navbar {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
-    hsl(0, 0%, 34%),
+    #313030,
     #000000
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
-    #515151,
+    #313030,
     #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .bg-card {
-  background: #2a2c2c
+  background: #2a2c2c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #2a2c2c,
+    #111111
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #2a2c2c,
+    #111111
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #434343,
+    #313030,
     #000000
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #434343,
+    #313030,
     #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -69,18 +79,14 @@
   background: #0a03e197; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
-    #09094f,
+    #04042f,
     #0a03e1cd
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
-    #09094f,
+    #04042f,
     #0a03e1cd
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.reddish {
-  background: #070442cd,
 }
 
 .red-gradient {
@@ -93,16 +99,16 @@
   );
 }
 
-.green-pink-gradient {
-  background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-}
-
 .red-yellow-gradient {
   background: "#00cea8";
   background: linear-gradient(90.13deg, #10bfcf 1.9%, #b419ec 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #10bfcf 1.9%, #b419ec 97.5%);
+}
+
+.green-pink-gradient {
+  background: "#00cea8";
+  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 }
 
 .orange-text-gradient {
