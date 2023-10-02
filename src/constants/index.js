@@ -44,8 +44,16 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
+    id: "projects",
+    title: "Projects"
+  },
+  {
+    id: "experience",
     title: "Experience",
+  },
+  {
+    id: "techs",
+    title: "Techs"
   },
   {
     id: "contact",
@@ -93,8 +101,7 @@ const skills = [
   "Node.js",
   "Express",
   "RSpec",
-  "Redux",
-  "npm"
+  "Redux"
 ];
 
 const technologies = [
@@ -154,16 +161,22 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Junior Software Engineer",
+    title: "Software Engineer",
     company_name: "Farzan Imanzadeh",
     icon: logo,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "August 2022 - Present",
     points: [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
       "More about my time freelancing",
       "",
       "Collaborated with a leading artist to create an accessible app for disabled music lovers",
-      "Dived deeper into the core principles of software ",
+      "Dived deeper into the core principles of software engineering while ",
       ""
     ],
   },
@@ -171,9 +184,15 @@ const experiences = [
     title: "Aspiring developer",
     company_name: "Makers Academy",
     icon: makers,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "March 2022 - July 2022",
     points: [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
       "More about my time in Makers",
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -185,9 +204,15 @@ const experiences = [
     title: "Farsi to English Interpreter",
     company_name: "Language Empire (London)",
     icon: langEmp,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "January 2020 - December 2021",
     points: [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
       "More about my time as an interpreter",
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -199,22 +224,22 @@ const experiences = [
     title: "Marketing Executive",
     company_name: "Cultural Signatures Ltd.",
     icon: cultsig,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "March 2020 - December 2020",
     points: [
-      "More about my time in Cult Sig",
-      "Created website from scratch with no prior coding knowledge",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Raised awareness of upcoming events through several media outlets i.e. Instagram, Facebook",
+      "Created website from scratch with no prior coding knowledge using Vanilla JavaScript",
+      "Supported Marketing Manager and established a rapport with sponsors and benefactors",
+      "Worked closely with creative agencies to develop marketing materials such as adverts and brochures",
+      "Sourced and secured sponsorship, leading to charitable donations for life-threatening diseases such as multiple sclerosis",
+      "Prepared weekly/monthly reports for management to aid tracking of marketing performance"
     ],
   },
   {
     title: "Self-teaching programming languages",
     company_name: "Soon-to-be developer (London)",
     icon: learning,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "September 2019 - February 2022",
     points: [
       "More about my time learning and covid, learnt html, css and ruby to begin makers properly",
@@ -224,91 +249,87 @@ const experiences = [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in code reviews and providing constructive feedback to other developers."
     ],
   },
   {
     title: "Team Leader (Supervisor)",
     company_name: "Pret A Manger (Oxford Circus, London)",
     icon: pret,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "December 2018 - August 2019",
     points: [
-      "More about my time in pret",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Training team regarding customer service and what is expected of them in line with Pret standards",
+      "Handling and resolving customer complaints while providing remarkable customer service",
+      "Flexible role: carry out barista, hot food chef, team member as well as manager duties on every shift",
+      "Opening and closing of high profile branch, banking, supplies ordering and accounting reconciliation duties"
     ],
   },
   {
     title: "Senior Lettings Negotiator",
     company_name: "AXM London (London)",
     icon: axmldn,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "December 2017 - November 2018",
     points: [
-      "More about my time in axm",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Provided exceptional customer service resulting in word of mouth referrals and positive Google reviews",
+      "Handling tenant complaints, resolving issues and preventing further issues by mitigating risk",
+      "Liaising with other estate agencies and landlords through phone, email, post when necessary",
+      "Quarterly report compilation for landlords regarding tenant profiles and year to date income",
+      "Accounting: Account reconciliation for the business, chasing invoices and general bookkeeping duties",
+      "Instigated new strategies for business development, leading to additional business and 20% profit growth"
     ],
   },
   {
     title: "Manager",
     company_name: "Pizza Express (Royal Festival Hall, London)",
     icon: pizzaExp,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "December 2016 - November 2017",
     points: [
-      "More about my time in Pizza Express",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Managing 20+ employees to maintain excellent customer service and meet specific restaurant targets in one of the busiest branches in London",
+      "Accounting: Developed understanding of sales, labour and profit forecasts",
+      "Administration: Filing and organising of restaurant documentation (invoices, employee files etc.)",
+      "Resolving and handling customer queries and issues (mass bookings, complaints, compliments, requests, pizza making parties (adults and children))"
     ],
   },
   {
     title: "Wealth Advisor",
     company_name: "deVere Acuma (Marina Mall, Dubai)",
     icon: acuma,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "July 2016 - November 2016",
     points: [
-      "Organised incentives for clients, learnt insurance and other financial derivatives",
-      "More about my time in Dubai etc etc",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented business development strategies such as referral incentives, golf days and family fun fairs",
+      "Expanded on my knowledge from Malta HQ (see below) by diving deeper into insurance, structured notes, financial derivatives and savings products",
+      "Delivered exceptional customer service, resulting in recognition from management as well as clients",
+      "First point of contact for clients: complaints handling, quarterly reports, providing investment updates and financial reviews to meet clients' lifestyle needs"
     ],
   },
   {
     title: "Wealth Advisor",
     company_name: "deVere Group (Malta HQ)",
     icon: deVere,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "January 2016 - July 2016",
     points: [
-      "My time in Malta - 6am - 7pm work days, studying in my own time and got CISI lvl 1",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "6 weeks intensive training based in the Malta headquarters",
+      "Typical 6am - 7pm work days, studied in my own time and achieved CISI level 1 with 96% pass rate",
+      "Effectively utilised CRM systems to keep track of clients and potential business opportunities",
+      "Data sourcing: Learnt how to source leads through a variety of methods including LinkedIn"
     ],
   },
   {
     title: "Management Trainee",
     company_name: "Enterprise Rent-A-Car (London/Norwich)",
     icon: erac,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "November 2014 - December 2015",
     points: [
-      "Demonstrated my excellent customer service skills in my first role after university by achieving over 90% completely satisfied clients across two separate branches",
-      "Entered the top 25 club in London for upsells, customer service and rentals",
-      "Found my passion for coding through 'Ralph', IBM software to manage car fleet. Never thought anything if it and didn't pursue development roles",
-      "Developed new business through business drop ins and word-of-mouth referrals",
+      "Found my passion for coding through 'Ralph' (IBM software to manage car fleet). Never thought anything of it and didn't pursue tech roles",
+      "Demonstrated my excellent customer service skills in my graduate role by achieving over 90% completely satisfied clients across two branches",
+      "Entered the 'Elite Club' (top 25 employees) in London for upsells, rentals and customer service",
+      "Developed new business through company drop ins and word-of-mouth referrals"
     ],
   },
   // {
