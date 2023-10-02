@@ -17,7 +17,7 @@ const ProjectCard = ({ index, name, description, tags, image, otherImage, source
           scale: 1,
           speed: 450
         }}
-        className="blue-gradient p-5 rounded-2xl sm:w-[360px] w-full"
+        className="blue-gradient p-5 rounded-2xl sm:w-[360px] w-full shadow-card"
       >
         <div className="relative w-full h-[230px]">
           <img 
@@ -100,4 +100,4 @@ const Projects = () => {
   )
 }
 
-export default SectionWrapper(Projects, "");
+export default SectionWrapper(Projects, "projects");
