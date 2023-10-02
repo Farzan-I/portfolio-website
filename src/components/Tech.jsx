@@ -17,12 +17,12 @@ const Tech = () => {
 
       <motion.div
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] leading-[30px]"
+        className="mt-4 text-white text-[17px] leading-[30px]"
       >
         <ul className="mt-5 list-disc ml-5 flex justify-center flex-wrap space-x-8 mb-6">
           {skills.map((skill, index) => (
             <li
-              className="hover:text-white hover:scale-110 transition-transform duration-300"
+              className="hover:text-secondary hover:scale-110 transition-transform duration-300"
               key={index}
             >
               {skill}
@@ -42,4 +42,4 @@ const Tech = () => {
   )
 }
 
-export default SectionWrapper(Tech, "");
+export default SectionWrapper(Tech, "techs");
