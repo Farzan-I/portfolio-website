@@ -6,11 +6,18 @@ module.exports = {
     extend: {
       colors: {
         primary: "#050816",
-        secondary: "#aaa6c3",
-        tertiary: "#151030",
-        "black-100": "#100d25",
+        secondary: "#cd5807",
+        // #ff7400 - orange
+        // #cd5807 - dark orange
+
+        tertiary: "#082744",
+        // #052a4c
+        // #151030 - old tertiary
+
+        "black-100": "#101437",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
+        "yellow-text": "#eda53a",
       },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
@@ -19,7 +26,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/wall.jpg')",
+        "hero-pattern": "url('/src/assets/bg.jpeg')",
       },
     },
   },
