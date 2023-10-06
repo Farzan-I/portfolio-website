@@ -70,7 +70,7 @@ const Contact = () => {
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">
+            <span className="text-white-100 font-medium mb-4">
               Your name:
             </span>
             <input 
@@ -83,7 +83,7 @@ const Contact = () => {
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">
+            <span className="text-white-100 font-medium mb-4">
               Your Email:
             </span>
             <input 
@@ -96,7 +96,7 @@ const Contact = () => {
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">
+            <span className="text-white-100 font-medium mb-4">
               Your message for my eyes only:
             </span>
             <textarea 
@@ -111,7 +111,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+            className="bg-tertiary py-3 px-8 outline-none w-fit text-white-100 font-bold shadow-md shadow-primary rounded-xl"
           >
             { loading ? 'Sending...' : 'Send' }
           </button>
