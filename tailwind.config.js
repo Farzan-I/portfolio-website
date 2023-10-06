@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "#050816",
-        secondary: "#cd5807",
+        secondary: "#FE0039",
         // #ff7400 - orange
         // #cd5807 - dark orange
 
@@ -16,7 +16,8 @@ module.exports = {
 
         "black-100": "#101437",
         "black-200": "#090325",
-        "white-100": "#f3f3f3",
+        "dark-grey": "#050505",
+        "white-100": "#f0ead6",
         "yellow-text": "#eda53a",
       },
       boxShadow: {
