@@ -25,7 +25,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer"> Farzan Imanzadeh &nbsp; | &nbsp; Software Engineer</p>
+          <p className="text-white-100 text-[18px] font-bold cursor-pointer"> Farzan Imanzadeh &nbsp; | &nbsp; Software Engineer</p>
         </Link>
     
         <div className="flex flex-1 justify-end items-center">
@@ -38,7 +38,7 @@ const Navbar = () => {
               className={`${
                 active === link.title
                 ? "text-secondary"
-                : "text-white"
+                : "text-white-100"
               } hover:text-secondary font-poppins font-medium cursor-pointer text-[18px]`}
               onClick={() => {
                 setToggle(!toggle)
