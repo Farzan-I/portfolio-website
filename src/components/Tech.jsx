@@ -17,7 +17,7 @@ const Tech = () => {
 
       <motion.div
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-white text-[17px] leading-[30px]"
+        className="mt-4 text-white-100 text-[17px] leading-[30px]"
       >
         <ul className="mt-5 list-disc ml-5 flex justify-center flex-wrap space-x-8 mb-6">
           {skills.map((skill, index) => (
