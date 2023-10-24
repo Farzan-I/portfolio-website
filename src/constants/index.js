@@ -1,5 +1,4 @@
 import {
-  // mobile,
   backend,
   creator,
   web,
@@ -22,7 +21,7 @@ import {
   pret,
   langEmp,
   cultsig,
-  learning,
+  superlearn,
   makers,
   bob,
   calc,
@@ -44,7 +43,15 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
+    id: "projects",
+    title: "Projects"
+  },
+  {
+    id: "techs",
+    title: "Techs"
+  },
+  {
+    id: "experience",
     title: "Experience",
   },
   {
@@ -65,11 +72,7 @@ const services = [
   {
     title: "Project Manager",
     icon: creator,
-  },
-    // {
-  //   title: "Continuous Development",
-  //   icon: mobile,
-  // },
+  }
 ];
 
 const skills = [
@@ -90,11 +93,9 @@ const skills = [
   "GraphQL",
   "PostgreSQL",
   "MySQL",
-  "Node.js",
   "Express",
   "RSpec",
-  "Redux",
-  "npm"
+  "Redux"
 ];
 
 const technologies = [
@@ -154,228 +155,152 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Junior Software Engineer",
-    company_name: "Farzan Imanzadeh",
+    title: "Freelance: Software Engineer",
+    company_name: "Farzan Imanzadeh (Intl.)",
     icon: logo,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "August 2022 - Present",
     points: [
-      "More about my time freelancing",
-      "",
-      "Collaborated with a leading artist to create an accessible app for disabled music lovers",
-      "Dived deeper into the core principles of software ",
-      ""
+      "Collaborated on various projects, including with a leading artist to create an accessible app for disabled music lovers",
+      "Work with other engineers to architect, build and test new features",
+      "Collaborating with cross-functional teams including designers and product managers to create high-quality products",
+      "Implement responsive design, debug and build software apps, ensuring cross-browser compatibility",
+      "Perform code walk-throughs to ensure code correctness and participate in code reviews",
+      "Develop and maintain web applications using JS, Vue, React, Ruby and other technologies",
     ],
   },
   {
-    title: "Aspiring developer",
-    company_name: "Makers Academy",
+    title: "Aspiring full stack engineer",
+    company_name: "Makers Academy (London)",
     icon: makers,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "March 2022 - July 2022",
     points: [
-      "More about my time in Makers",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Instructed in all vital aspects of software development, given regular tests and projects that developed my abilities of producing web and desktop apps in Ruby and JavaScript",
+      "Learnt to break down project requirements, create user stories, define MVP to easily accomplish tasks within a timescale",
+      "Code following principles like TDD/BDD to create clear code and well-tested applications",
+      "Develop self-directed teaching abilities that allow to learn a new language/framework easily",
+      "Undertaken specialised EQ training curriculum that dives deeper into empathy and teamwork",
+      "Collaborate with others using GitHub version control and CI/CD to reduce integration risk",
+      "Use Agile methodologies and pair programming to work well in a team, XP values, daily stand-ups and sprint planning",
+      "Give and receive feedback using code reviews and open/respectful communication to other developers",
     ],
   },
   {
     title: "Farsi to English Interpreter",
     company_name: "Language Empire (London)",
     icon: langEmp,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "January 2020 - December 2021",
     points: [
-      "More about my time as an interpreter",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Provided translating services for the NHS and other organisations",
+      "Strong communication skills, building rapport and trusted relationships with patients aged between 10 and 90 years old",
     ],
   },
   {
     title: "Marketing Executive",
-    company_name: "Cultural Signatures Ltd.",
+    company_name: "Cultural Signatures Ltd. (London)",
     icon: cultsig,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "March 2020 - December 2020",
     points: [
-      "More about my time in Cult Sig",
-      "Created website from scratch with no prior coding knowledge",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Helped create company website from scratch with no prior coding knowledge",
+      "Raised awareness of upcoming events through several media outlets i.e. Instagram, Facebook",
+      "Worked closely with creative agencies to develop marketing materials i.e. adverts and brochures",
+      "Sourced and secured sponsorship, leading to donations for life-threatening diseases such as multiple sclerosis",
+      "Prepared weekly/monthly reports for management to aid tracking of marketing performance"
     ],
   },
   {
     title: "Self-teaching programming languages",
     company_name: "Soon-to-be developer (London)",
-    icon: learning,
-    iconBg: "#ffffff",
+    icon: superlearn,
+    iconBg: "#eeeeee",
     date: "September 2019 - February 2022",
     points: [
-      "More about my time learning and covid, learnt html, css and ruby to begin makers properly",
-      "Not afraid of a new challenge, I decided to give software engineering a shot and did not look back",
-      "Created command line terminal games using Ruby (can be found on my Github)",
-      "Made ",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Not afraid of a new challenge, I decided to give software engineering a go and did not look back",
+      "Dived deeper into various languages/frameworks such as Ruby, Git, JavaScript, HTML and CSS",
+      "Created command line terminal games using Ruby (can be found on my GitHub)",
+      "Commenced preparations to begin coding bootcamp with Makers, put on hold due to Covid-19 pandemic",
     ],
   },
   {
     title: "Team Leader (Supervisor)",
-    company_name: "Pret A Manger (Oxford Circus, London)",
+    company_name: "Pret A Manger (London)",
     icon: pret,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "December 2018 - August 2019",
     points: [
-      "More about my time in pret",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Training team regarding customer service and what is expected of them in line with Pret standards",
+      "Handling and resolving customer complaints while providing remarkable customer service",
+      "Flexible role: carry out barista, hot food chef, team member as well as manager duties on every shift",
+      "Opening and closing of high profile branch, banking, supplies ordering and accounting reconciliation duties"
     ],
   },
   {
     title: "Senior Lettings Negotiator",
     company_name: "AXM London (London)",
     icon: axmldn,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "December 2017 - November 2018",
     points: [
-      "More about my time in axm",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Provided exceptional customer service resulting in word of mouth referrals and positive Google reviews",
+      "Quarterly report compilation for landlords regarding tenant profiles and year to date income",
+      "Accounting: Account reconciliation for the business, chasing invoices and general bookkeeping duties",
+      "Instigated new strategies for business development, leading to additional business and 20% profit growth"
     ],
   },
   {
     title: "Manager",
-    company_name: "Pizza Express (Royal Festival Hall, London)",
+    company_name: "Pizza Express (London)",
     icon: pizzaExp,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "December 2016 - November 2017",
     points: [
-      "More about my time in Pizza Express",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Managing 20+ employees to maintain excellent customer service and meet specific restaurant targets in one of the busiest branches in London",
+      "Accounting: Developed understanding of sales, labour and profit forecasts",
+      "Administration: Filing and organising of restaurant documentation (invoices, employee files etc.)",
+      "Resolving and handling customer queries and issues (mass bookings, complaints, compliments, requests, pizza making parties (adults and children))"
     ],
   },
   {
     title: "Wealth Advisor",
     company_name: "deVere Acuma (Marina Mall, Dubai)",
     icon: acuma,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "July 2016 - November 2016",
     points: [
-      "Organised incentives for clients, learnt insurance and other financial derivatives",
-      "More about my time in Dubai etc etc",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented business development strategies such as referral incentives, golf days and family fun fairs",
+      "Expanded on my knowledge from Malta HQ (see below) by diving deeper into insurance, structured notes, financial derivatives and savings products",
+      "Delivered exceptional customer service, resulting in recognition from management as well as clients",
+      "First point of contact for clients: complaints handling, quarterly reports, providing investment updates and financial reviews to meet clients' lifestyle needs"
     ],
   },
   {
     title: "Wealth Advisor",
     company_name: "deVere Group (Malta HQ)",
     icon: deVere,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "January 2016 - July 2016",
     points: [
-      "My time in Malta - 6am - 7pm work days, studying in my own time and got CISI lvl 1",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "6 weeks intensive training based in the Malta headquarters",
+      "Typical 6am - 7pm work days, studied in my own time and achieved CISI level 1 with 96% pass rate",
+      "Effectively utilised CRM systems to keep track of clients and potential business opportunities",
+      "Data sourcing: Learnt how to source leads through a variety of methods including LinkedIn"
     ],
   },
   {
     title: "Management Trainee",
     company_name: "Enterprise Rent-A-Car (London/Norwich)",
     icon: erac,
-    iconBg: "#ffffff",
+    iconBg: "#eeeeee",
     date: "November 2014 - December 2015",
     points: [
-      "Demonstrated my excellent customer service skills in my first role after university by achieving over 90% completely satisfied clients across two separate branches",
-      "Entered the top 25 club in London for upsells, customer service and rentals",
-      "Found my passion for coding through 'Ralph', IBM software to manage car fleet. Never thought anything if it and didn't pursue development roles",
-      "Developed new business through business drop ins and word-of-mouth referrals",
+      "Found my passion for coding through 'Ralph' (IBM software to manage car fleet). Never thought anything of it and didn't pursue tech roles",
+      "Demonstrated my excellent customer service skills in my graduate role by achieving over 90% completely satisfied clients across two branches",
+      "Entered the 'Elite Club' (top 25 employees) in London for upsells, rentals and customer service",
+      "Developed new business through company drop ins and word-of-mouth referrals"
     ],
-  },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -447,7 +372,7 @@ const projects = [
     image: orchlab,
     otherImage: netlify,
     source_code_link: "https://github.com/gawainhewitt/orchlab-strings",
-    source_code_link_other: "https://orchlab-strings.netlify.app/play",
+    source_code_link_other: "https://orchlab-strings.netlify.app",
   },
   {
     name: "Portfolio Website",
@@ -474,4 +399,4 @@ const projects = [
   },
 ];
 
-export { services, skills, technologies, experiences, testimonials, projects };
+export { services, skills, technologies, experiences, projects};

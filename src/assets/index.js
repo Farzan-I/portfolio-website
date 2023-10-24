@@ -27,7 +27,7 @@ import deVere from "./company/deVere.png";
 import acuma from "./company/acuma.png";
 import pizzaExp from "./company/pizzaExp.png";
 import axmldn from "./company/axmldn.png";
-import learning from "./company/learning.png";
+import superlearn from "./company/superlearn.png";
 import langEmp from "./company/langEmp.png";
 import pret from "./company/pret.png";
 import cultsig from "./company/cultsig.png";
@@ -68,7 +68,7 @@ export {
   axmldn,
   pret,
   langEmp,
-  learning,
+  superlearn,
   makers,
   cultsig,
   bob,

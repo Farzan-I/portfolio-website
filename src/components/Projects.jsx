@@ -17,7 +17,7 @@ const ProjectCard = ({ index, name, description, tags, image, otherImage, source
           scale: 1,
           speed: 450
         }}
-        className="blue-gradient p-5 rounded-2xl sm:w-[360px] w-full"
+        className="red-gradient p-5 rounded-2xl sm:w-[360px] w-full shadow-card"
       >
         <div className="relative w-full h-[230px]">
           <img 
@@ -50,8 +50,8 @@ const ProjectCard = ({ index, name, description, tags, image, otherImage, source
         </div>
 
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-white text-[14px]">{description}</p>
+          <h3 className="text-white-100 font-bold text-[24px]">{name}</h3>
+          <p className="mt-2 text-white-100 text-[14px]">{description}</p>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
@@ -77,7 +77,7 @@ const Projects = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-9 text-white text-[17px] max-w-3xl leading-[30px]"
+          className="mt-9 text-white-100 text-[17px] max-w-3xl leading-[30px]"
         >
           Below are some projects that showcase my fullstack application skills, complex problem-solving, diverse technology collaboration and effective project management. 
           Each project is briefly described with links to code repositories and live demos. I&apos;d be happy to go through any of them in more detail. A full comprehensive list of the projects I have worked on can be found on my  
@@ -100,4 +100,4 @@ const Projects = () => {
   )
 }
 
-export default SectionWrapper(Projects, "");
+export default SectionWrapper(Projects, "projects");
