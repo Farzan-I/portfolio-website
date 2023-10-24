@@ -25,7 +25,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white-100 text-[18px] font-bold cursor-pointer"> Farzan Imanzadeh &nbsp; <span className="text-[#8c0623]">|</span> &nbsp; Software Engineer</p>
+          <p className="text-white-100 text-[14px] font-bold cursor-pointer"> Farzan Imanzadeh &nbsp; <span className="text-[#8c0623]">|</span> &nbsp; Software Engineer</p>
         </Link>
     
         <div className="flex flex-1 justify-end items-center">
