@@ -17,7 +17,7 @@ const ProjectCard = ({ index, name, description, tags, image, otherImage, source
           scale: 1,
           speed: 450
         }}
-        className="blue-gradient p-5 rounded-2xl sm:w-[360px] w-full shadow-card"
+        className="red-gradient p-5 rounded-2xl sm:w-[360px] w-full shadow-card"
       >
         <div className="relative w-full h-[230px]">
           <img 
@@ -50,8 +50,8 @@ const ProjectCard = ({ index, name, description, tags, image, otherImage, source
         </div>
 
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-white text-[14px]">{description}</p>
+          <h3 className="text-white-100 font-bold text-[24px]">{name}</h3>
+          <p className="mt-2 text-white-100 text-[14px]">{description}</p>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
