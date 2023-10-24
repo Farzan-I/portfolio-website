@@ -5,14 +5,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#050816",
-        secondary: "#FE0039",
-        // #ff7400 - orange
-        // #cd5807 - dark orange
+        primary: "#fe0039",
+        secondary: "#e000fe",
+        
 
+        // No reference yet
         tertiary: "#082744",
         // #052a4c
         // #151030 - old tertiary
+
+        // No reference yet
+        quaternary: "#8c0623",
+
+        // For contact background
+        quinary: "#0e0e0ebc",
 
         "black-100": "#101437",
         "black-200": "#090325",
