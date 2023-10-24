@@ -12,7 +12,7 @@ const Tech = () => {
     <>
       <motion.div variants={textVariant()}>
         <h1 className={`${styles.sectionHeadText} text-center`}>Technologies</h1>
-        <p className={`${styles.sectionSubText} text-center`}>What I have experience using</p>
+        <p className={`${styles.sectionSubText} text-center`}>What I have experience using, open to new tech!</p>
       </motion.div>
 
       <motion.div
@@ -22,7 +22,7 @@ const Tech = () => {
         <ul className="mt-5 list-disc ml-5 flex justify-center flex-wrap space-x-8 mb-6">
           {skills.map((skill, index) => (
             <li
-              className="hover:text-secondary hover:scale-110 transition-transform duration-300"
+              className="hover:text-primary hover:scale-110 transition-transform duration-300"
               key={index}
             >
               {skill}
