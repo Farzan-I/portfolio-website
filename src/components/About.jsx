@@ -11,7 +11,7 @@ const ServiceCard = ({ index, title, icon }) => {
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)} 
-        className="w-full red-yellow-gradient p-[1px] rounded-[20px] shadow-card"
+        className="w-full red-yellow-gradient p-[1px] rounded-[20px]"
       >
         <div 
           options={{
@@ -49,17 +49,17 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)} 
         className="mt-10 text-white-100 text-[17px] max-w-3xl leading-[30px]"
       >
-        First of all, allow me to thank you for visiting my website. A lot of blood, sweat, caffeine and tears went into making this happen. 
-        This website is optimised to be viewed on desktop PCs, but it&apos;s compatible with small devices. I hope you have a great experience 
+        First of all, allow me to thank you for visiting my website.
+        It&apos;s optimised to be viewed on desktop PCs, but compatible with small devices. I hope you have a great experience 
         nonetheless and learn exactly who the person behind the name that most people don&apos;t know how to pronounce is!
 
         <br/>
         <br/>
 
         The path that led me to this point was never straight forward. A lot of self-doubt, disbelief and delaying forced me to pursue other career avenues.
-        My fascination with coding did however begin in my graduate role. Imposter syndrome did kick in early and I dismissed the idea of becoming an engineer.
+        My fascination with coding began in my graduate role. Imposter syndrome did however kick in early and I dismissed the idea of becoming an engineer.
         
-        While working in management, marketing and finance roles, I still had hopes of knowing how to efficiently use the terminal on a computer like a pro, but still considered it only a dream. 
+        While working in management, marketing and financial roles, I still had hopes of knowing how to efficiently use the command line terminal on a computer like a pro, but still considered it a dream. 
         It was only until my role as a marketing executive that I found my natural knack for software engineering.
         
         <br/>
