@@ -14,15 +14,15 @@ const Computers = ({ isMobile }) => {
         position={isMobile ? [-20, 90, -30] : [-20, 50, 10]}
         angle={isMobile ? 0.2 : 0.12}
         penumbra={1}
-        intensity={isMobile ? 0.9 : 1}
+        intensity={isMobile ? 1 : 1}
         castShadow
         shadow-mapSize={1024}
       />
       <pointLight intensity={isMobile ? 0.4 : 1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 10 : 12}
-        position={isMobile ? [-5, -2.55, -1.5] : [-0.5, -2.55, -1.5]}
+        scale={isMobile ? 8 : 12}
+        position={isMobile ? [0.4, -2, 0] : [-0.5, -2.7, 0]}
         rotation={isMobile ? [-0.01, 2.5, 0.04] : [-0.01, 2.3, 0.1]}
       />
     </mesh>
@@ -63,6 +63,7 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
+          autoRotate
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
