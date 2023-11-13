@@ -158,22 +158,22 @@ const experiences = [
     title: "Freelance: Software Engineer",
     company_name: "Farzan Imanzadeh (Intl.)",
     icon: logo,
-    iconBg: "#eeeeee",
+    iconBg: "#d5d5d5",
     date: "August 2022 - Present",
     points: [
-      "Collaborated on various projects, including with a leading artist to create an accessible app for disabled music lovers",
+      "Collaborated on various projects, including with a leading artist/engineer to create an accessible app for disabled music lovers",
       "Work with other engineers to architect, build and test new features",
       "Collaborating with cross-functional teams including designers and product managers to create high-quality products",
       "Implement responsive design, debug and build software apps, ensuring cross-browser compatibility",
       "Perform code walk-throughs to ensure code correctness and participate in code reviews",
-      "Develop and maintain web applications using JS, Vue, React, Ruby and other technologies",
+      "Develop and maintain web applications using JS, ReactJS, Ruby, Vue and other technologies",
     ],
   },
   {
     title: "Aspiring full stack engineer",
     company_name: "Makers Academy (London)",
     icon: makers,
-    iconBg: "#eeeeee",
+    iconBg: "#d5d5d5",
     date: "March 2022 - July 2022",
     points: [
       "Instructed in all vital aspects of software development, given regular tests and projects that developed my abilities of producing web and desktop apps in Ruby and JavaScript",
@@ -190,7 +190,7 @@ const experiences = [
     title: "Farsi to English Interpreter",
     company_name: "Language Empire (London)",
     icon: langEmp,
-    iconBg: "#eeeeee",
+    iconBg: "#d5d5d5",
     date: "January 2020 - December 2021",
     points: [
       "Provided translating services for the NHS and other organisations",
@@ -201,7 +201,7 @@ const experiences = [
     title: "Marketing Executive",
     company_name: "Cultural Signatures Ltd. (London)",
     icon: cultsig,
-    iconBg: "#eeeeee",
+    iconBg: "#d5d5d5",
     date: "March 2020 - December 2020",
     points: [
       "Helped create company website from scratch with no prior coding knowledge",
@@ -215,7 +215,7 @@ const experiences = [
     title: "Self-teaching programming languages",
     company_name: "Soon-to-be developer (London)",
     icon: superlearn,
-    iconBg: "#eeeeee",
+    iconBg: "#d5d5d5",
     date: "September 2019 - February 2022",
     points: [
       "Not afraid of a new challenge, I decided to give software engineering a go and did not look back",
@@ -228,7 +228,7 @@ const experiences = [
     title: "Team Leader (Supervisor)",
     company_name: "Pret A Manger (London)",
     icon: pret,
-    iconBg: "#eeeeee",
+    iconBg: "#d5d5d5",
     date: "December 2018 - August 2019",
     points: [
       "Training team regarding customer service and what is expected of them in line with Pret standards",
@@ -241,7 +241,7 @@ const experiences = [
     title: "Senior Lettings Negotiator",
     company_name: "AXM London (London)",
     icon: axmldn,
-    iconBg: "#eeeeee",
+    iconBg: "#d5d5d5",
     date: "December 2017 - November 2018",
     points: [
       "Provided exceptional customer service resulting in word of mouth referrals and positive Google reviews",
@@ -254,10 +254,10 @@ const experiences = [
     title: "Manager",
     company_name: "Pizza Express (London)",
     icon: pizzaExp,
-    iconBg: "#eeeeee",
+    iconBg: "#d5d5d5",
     date: "December 2016 - November 2017",
     points: [
-      "Managing 20+ employees to maintain excellent customer service and meet specific restaurant targets in one of the busiest branches in London",
+      "Managing 20+ employees to maintain excellent customer service and meet specific restaurant targets in one of the busiest branches in the UK",
       "Accounting: Developed understanding of sales, labour and profit forecasts",
       "Administration: Filing and organising of restaurant documentation (invoices, employee files etc.)",
       "Resolving and handling customer queries and issues (mass bookings, complaints, compliments, requests, pizza making parties (adults and children))"
@@ -267,20 +267,20 @@ const experiences = [
     title: "Wealth Advisor",
     company_name: "deVere Acuma (Marina Mall, Dubai)",
     icon: acuma,
-    iconBg: "#eeeeee",
+    iconBg: "#d5d5d5",
     date: "July 2016 - November 2016",
     points: [
       "Implemented business development strategies such as referral incentives, golf days and family fun fairs",
-      "Expanded on my knowledge from Malta HQ (see below) by diving deeper into insurance, structured notes, financial derivatives and savings products",
       "Delivered exceptional customer service, resulting in recognition from management as well as clients",
-      "First point of contact for clients: complaints handling, quarterly reports, providing investment updates and financial reviews to meet clients' lifestyle needs"
+      "First point of contact for clients: quarterly reports, complaints handling, providing investment updates and financial reviews to meet clients' lifestyle needs",
+      "Expanded on my knowledge from Malta HQ (see below) by diving deeper into insurance, structured notes, financial derivatives and savings products"
     ],
   },
   {
     title: "Wealth Advisor",
     company_name: "deVere Group (Malta HQ)",
     icon: deVere,
-    iconBg: "#eeeeee",
+    iconBg: "#d5d5d5",
     date: "January 2016 - July 2016",
     points: [
       "6 weeks intensive training based in the Malta headquarters",
@@ -293,7 +293,7 @@ const experiences = [
     title: "Management Trainee",
     company_name: "Enterprise Rent-A-Car (London/Norwich)",
     icon: erac,
-    iconBg: "#eeeeee",
+    iconBg: "#d5d5d5",
     date: "November 2014 - December 2015",
     points: [
       "Found my passion for coding through 'Ralph' (IBM software to manage car fleet). Never thought anything of it and didn't pursue tech roles",
@@ -308,7 +308,7 @@ const projects = [
   {
     name: "Brains On Brioche",
     description:
-      "Web-based platform that allows users to search for recipes using the ingredients that are at their disposal in their 'fridge'.",
+      "Web-based platform that allows users to search for recipes using ingredients at their disposal in their 'fridge'.",
     tags: [
       {
         name: "MERN stack",
@@ -354,7 +354,7 @@ const projects = [
   {
     name: "Orchlab Strings",
     description:
-      "Made for disbaled, colour blind users, this app mimics string instruments and allows users to pluck or bow the 'strings'.",
+      "Made for disabled, colour blind users, this app mimics string instruments and allows users to pluck or bow the 'strings'.",
     tags: [
       {
         name: "Vue.js",
@@ -377,7 +377,7 @@ const projects = [
   {
     name: "Portfolio Website",
     description:
-      "Website to demonstrate my skills and abilities. Users can see my experience and get in touch to collaborate.",
+      "Listed here for those curious to know how this website was sculpted. A lot of blood, sweat, caffeine and tears not mentioned!",
     tags: [
       {
         name: "React",
