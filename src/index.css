@@ -118,8 +118,8 @@
   background: linear-gradient(-90deg, #FE0039 0%, rgba(0, 0, 0, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #ff0339 -50%,
-    rgb(8, 0, 0) 100%
+    #ff0339 -40%,
+    rgb(31, 1, 1) 100%
   );
 }
 
@@ -148,6 +148,7 @@
     #f5af19
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -164,6 +165,7 @@
     #38ef7d
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -181,6 +183,7 @@
     #56ccf2
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -197,6 +200,7 @@
     #fc6767
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
