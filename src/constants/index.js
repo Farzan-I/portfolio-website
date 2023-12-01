@@ -62,7 +62,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Fullstack Web Developer",
+    title: "Full-stack Software Engineer",
     icon: web,
   },
   {
@@ -155,10 +155,10 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Freelance: Software Engineer",
+    title: "Freelance: Full-stack Software Engineer",
     company_name: "Farzan Imanzadeh (Intl.)",
     icon: logo,
-    iconBg: "#d5d5d5",
+    iconBg: "#ffffff",
     date: "August 2022 - Present",
     points: [
       "Collaborated on various projects, including with a leading artist/engineer to create an accessible app for disabled music lovers",
@@ -170,10 +170,10 @@ const experiences = [
     ],
   },
   {
-    title: "Aspiring full stack engineer",
+    title: "Aspiring Full-stack Engineer",
     company_name: "Makers Academy (London)",
     icon: makers,
-    iconBg: "#d5d5d5",
+    iconBg: "#ffffff",
     date: "March 2022 - July 2022",
     points: [
       "Instructed in all vital aspects of software development, given regular tests and projects that developed my abilities of producing web and desktop apps in Ruby and JavaScript",
@@ -190,7 +190,7 @@ const experiences = [
     title: "Farsi to English Interpreter",
     company_name: "Language Empire (London)",
     icon: langEmp,
-    iconBg: "#d5d5d5",
+    iconBg: "#ffffff",
     date: "January 2020 - December 2021",
     points: [
       "Provided translating services for the NHS and other organisations",
@@ -201,7 +201,7 @@ const experiences = [
     title: "Marketing Executive",
     company_name: "Cultural Signatures Ltd. (London)",
     icon: cultsig,
-    iconBg: "#d5d5d5",
+    iconBg: "#ffffff",
     date: "March 2020 - December 2020",
     points: [
       "Helped create company website from scratch with no prior coding knowledge",
@@ -212,10 +212,10 @@ const experiences = [
     ],
   },
   {
-    title: "Self-teaching programming languages",
+    title: "Self-teaching Programming Languages",
     company_name: "Soon-to-be developer (London)",
     icon: superlearn,
-    iconBg: "#d5d5d5",
+    iconBg: "#7fdeff",
     date: "September 2019 - February 2022",
     points: [
       "Not afraid of a new challenge, I decided to give software engineering a go and did not look back",
@@ -228,7 +228,7 @@ const experiences = [
     title: "Team Leader (Supervisor)",
     company_name: "Pret A Manger (London)",
     icon: pret,
-    iconBg: "#d5d5d5",
+    iconBg: "#ffffff",
     date: "December 2018 - August 2019",
     points: [
       "Training team regarding customer service and what is expected of them in line with Pret standards",
@@ -241,7 +241,7 @@ const experiences = [
     title: "Senior Lettings Negotiator",
     company_name: "AXM London (London)",
     icon: axmldn,
-    iconBg: "#d5d5d5",
+    iconBg: "#ffffff",
     date: "December 2017 - November 2018",
     points: [
       "Provided exceptional customer service resulting in word of mouth referrals and positive Google reviews",
@@ -254,7 +254,7 @@ const experiences = [
     title: "Manager",
     company_name: "Pizza Express (London)",
     icon: pizzaExp,
-    iconBg: "#d5d5d5",
+    iconBg: "#ffffff",
     date: "December 2016 - November 2017",
     points: [
       "Managing 20+ employees to maintain excellent customer service and meet specific restaurant targets in one of the busiest branches in the UK",
@@ -267,7 +267,7 @@ const experiences = [
     title: "Wealth Advisor",
     company_name: "deVere Acuma (Marina Mall, Dubai)",
     icon: acuma,
-    iconBg: "#d5d5d5",
+    iconBg: "#ffffff",
     date: "July 2016 - November 2016",
     points: [
       "Implemented business development strategies such as referral incentives, golf days and family fun fairs",
@@ -280,7 +280,7 @@ const experiences = [
     title: "Wealth Advisor",
     company_name: "deVere Group (Malta HQ)",
     icon: deVere,
-    iconBg: "#d5d5d5",
+    iconBg: "#ffffff",
     date: "January 2016 - July 2016",
     points: [
       "6 weeks intensive training based in the Malta headquarters",
@@ -293,7 +293,7 @@ const experiences = [
     title: "Management Trainee",
     company_name: "Enterprise Rent-A-Car (London/Norwich)",
     icon: erac,
-    iconBg: "#d5d5d5",
+    iconBg: "#ffffff",
     date: "November 2014 - December 2015",
     points: [
       "Found my passion for coding through 'Ralph' (IBM software to manage car fleet). Never thought anything of it and didn't pursue tech roles",
