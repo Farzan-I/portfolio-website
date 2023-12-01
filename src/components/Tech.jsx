@@ -31,6 +31,12 @@ const Tech = () => {
         </ul>
       </motion.div>
       
+      <div className='mt-10 justify-center w-full flex'>
+        <p className={`${styles.sectionSubText} text-center`}>
+          Spin the balls!
+        </p>
+      </div>
+
       <div className="mt-10 flex flex-row flex-wrap justify-center gap-10">
         { technologies.map((technology) => (
           <div className="w-28 h-28" key={technology.name}>
