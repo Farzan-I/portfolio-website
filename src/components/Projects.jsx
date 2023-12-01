@@ -79,10 +79,10 @@ const Projects = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-9 text-white-100 text-[17px] max-w-3xl leading-[30px]"
         >
-          Below are some projects that showcase my fullstack application skills, complex problem-solving, diverse technology collaboration and effective project management. 
-          Each project is briefly described with links to code repositories and live demos. I&apos;d be happy to go through any of them in more detail. A full comprehensive list of the projects I have worked on can be found on my  
+          Below are some projects that showcase my fullstack application skills, complex problem-solving, diverse technology collaboration and effective project management abilities. 
+          Each one is summarised with links to code repositories and live demos. Happy to go through any of them in more detail! A full list of the projects I&apos;ve worked on can be found on  
           <a href="https://github.com/Farzan-I" rel="noreferrer" target="_blank">
-              <span className="text-secondary"> GitHub</span>
+              <span className="text-secondary"> my GitHub</span>
           </a>. 
         </motion.p>
       </div>
