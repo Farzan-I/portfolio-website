@@ -39,6 +39,9 @@ import netlify from "./netlify.png";
 import orchlab from "./orchlab.png";
 import portWebsite from "./portWebsite.png";
 
+import linkedin from "./linkedin.png"
+import codewars from "./codewars.png"
+
 export {
   logo,
   backend,
@@ -76,5 +79,7 @@ export {
   netlify,
   orchlab,
   portWebsite,
-  tailwind
+  tailwind,
+  linkedin, 
+  codewars
 };
