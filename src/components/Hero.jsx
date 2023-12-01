@@ -40,11 +40,9 @@ const Hero = () => {
               className="w-3 h-3 rounded-full bg-white-100 mb-1"
             />
           </div>
-          <div className='absolute items-center'>
             <p>
-                Press!
+              Press!
             </p>
-          </div>
         </a>
       </div>
     </section>
