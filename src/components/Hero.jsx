@@ -9,7 +9,7 @@ const Hero = () => {
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#FE0039]" />
-          <div className="w-1 sm:h-80 h-40 red-gradient-hero" />
+          <div className="w-1 sm:h-80 h-60 red-gradient-hero" />
         </div>
 
         <div>
@@ -25,8 +25,8 @@ const Hero = () => {
       
       <ComputersCanvas />
 
-      <div className="absolute xs:bottom-10 bottom-10 w-full flex justify-center items-center">
-        <a href="#about">
+      <div className="scroll-indicator absolute xs:bottom-10 bottom-20">
+        <a className='scroll-inner' href="#about">
           <div className="w-[35px] h-[84px] rounded-3xl border-4 border-white-100 flex justify-center items-start p-2">
             <motion.dev 
               animate={{
@@ -41,7 +41,7 @@ const Hero = () => {
             />
           </div>
             <p>
-              Press!
+              Press me!
             </p>
         </a>
       </div>
