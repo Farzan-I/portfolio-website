@@ -39,7 +39,18 @@ const About = () => {
         <p className={styles.sectionSubText}>Introduction</p>
       </motion.div>
 
-      <div className="mt-10 flex flex-wrap gap-10">
+      <motion.p 
+        variants={fadeIn("", "", 0.1, 1)} 
+        className="mt-10 text-white-100 text-[17px] max-w-3xl leading-[30px]"
+      >
+        First of all, allow me to thank you for visiting my website!
+        It&apos;s intended to be viewed on desktop PCs, but compatible with small devices. I hope that doesn&apos;t ruin your experience
+        and you get to know the person behind the name that most people can&apos;t even pronounce!
+        <br/>
+        <br/>
+       </motion.p>
+
+       <div className="mt-10 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
@@ -49,12 +60,6 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)} 
         className="mt-10 text-white-100 text-[17px] max-w-3xl leading-[30px]"
       >
-        First of all, allow me to thank you for visiting my website!
-        It&apos;s intended to be viewed on desktop PCs, but compatible with small devices. I hope that doesn&apos;t ruin your experience and you learn who the person behind the name that most people can&apos;t pronounce is!
-
-        <br/>
-        <br/>
-
         The path that led me to this point was never straight forward. A lot of self-doubt, disbelief and delaying forced me to pursue other career avenues.
         My fascination with coding began in my graduate role. Imposter syndrome did kick in early and I dismissed the idea of becoming an engineer.
         
@@ -65,18 +70,23 @@ const About = () => {
         <br/>
 
         Here, I helped create the 
-        <a href="https://www.culturalsignatures.com/" rel="noreferrer" target="_blank">
-          <span className="text-secondary"> company&apos;s website </span>
-        </a> 
+          <a href="https://www.culturalsignatures.com/" rel="noreferrer" target="_blank">
+            <span className="text-secondary"> 
+              company&apos;s website 
+            </span>
+          </a> 
         and enjoyed it so much that I spent my spare time studying HTML, CSS, JavaScript, and Ruby. After the Covid-19 pandemic, I joined a 
-        <a href="https://www.makers.tech/" rel="noreferrer" target="_blank">
-          <span className="text-secondary"> leading coding bootcamp </span>
-        </a> 
+          <a href="https://www.makers.tech/" rel="noreferrer" target="_blank">
+            <span className="text-secondary"> 
+              leading coding bootcamp 
+            </span>
+          </a> 
         on a hybrid, full-time basis in order to expand my knowledge and actualise my dream of becoming a software engineer. 
         During my time here, I accumulated valuable professional experience working in full agile teams (in-person and remotely) and have collaborated on various projects using a wide range of technologies, most can be found below. 
 
         I&apos;ve been freelancing ever since graduating and eager to start my first professional role as an engineer with a forward thinking company!
-       </motion.p>
+       
+      </motion.p>
     </>
   )
 }
