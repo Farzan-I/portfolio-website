@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <foot>
     
-      <div className={`${styles.paddingX} w-full flex items-center py-5 bottom-0 z-20 justify-end bg-quinary gap-3`}>
+      <div className={`${styles.paddingX} w-full flex items-center py-5 bottom-0 z-20 justify-end bg-tertiary gap-3`}>
         <div className={`${styles.paddingX} w-full flex `}>
 
           <p className="text-white-100 text-[10px]">
@@ -19,8 +19,8 @@ const Footer = () => {
             </a> is licensed under 
             <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="noreferrer" target="_blank">
               <span className="text-secondary"> Creative Commons Attribution-NonCommercial</span>
-            </a>. All product and company names are trademarks™️ or registered®️ trademarks of their respective holders.
-            Use of them does not imply any affiliation with or endorsement by them.
+            </a>. All product & company names are trademarks™️ or registered®️ trademarks of their respective holders.
+            Use of them does not imply any affiliation with or endorsement by them. Menu icon by Icons8.
           </p>
         </div>
         <div className={`${styles.paddingX} flex items-center gap-1`}>
