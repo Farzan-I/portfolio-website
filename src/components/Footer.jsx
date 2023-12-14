@@ -12,13 +12,13 @@ const Footer = () => {
 
           <p className="justify-font text-white-100 text-[10px]">
             <a href="https://skfb.ly/orSpX/" rel="noreferrer" target="_blank">
-              <span className="text-secondary">MacBook Pro</span>
+              <span className="text-secondary hover:text-primary">MacBook Pro</span>
             </a> model by 
             <a href="https://sketchfab.com/KangaroOz-3D" rel="noreferrer" target="_blank">
-              <span className="text-secondary"> KangaroOz 3D </span>
+              <span className="text-secondary hover:text-primary"> KangaroOz 3D </span>
             </a> is licensed under 
             <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="noreferrer" target="_blank">
-              <span className="text-secondary"> Creative Commons Attribution-NonCommercial</span>
+              <span className="text-secondary hover:text-primary"> Creative Commons Attribution-NonCommercial</span>
             </a>. All product & company names are trademarks™️ or registered®️ trademarks of their respective holders.
             Use of them does not imply any affiliation with or endorsement by them. Menu icon by Icons8.
           </p>
