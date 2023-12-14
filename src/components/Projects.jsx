@@ -82,7 +82,7 @@ const Projects = () => {
           Below are some projects that showcase my fullstack application skills, complex problem-solving, diverse technology collaboration and effective project management abilities. 
           Each one is summarised with links to code repositories and live demos. Happy to go through any of them in more detail! A full list of the projects I&apos;ve worked on can be found on  
           <a href="https://github.com/Farzan-I" rel="noreferrer" target="_blank">
-              <span className="text-secondary"> my GitHub</span>
+              <span className="text-secondary hover:text-primary"> my GitHub</span>
           </a>. 
         </motion.p>
       </div>
