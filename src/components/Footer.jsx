@@ -10,7 +10,7 @@ const Footer = () => {
       <div className={`${styles.paddingX} w-full flex items-center py-5 bottom-0 z-20 justify-end bg-tertiary gap-3`}>
         <div className={`${styles.paddingX} w-full flex `}>
 
-          <p className="text-white-100 text-[10px]">
+          <p className="justify-font text-white-100 text-[10px]">
             <a href="https://skfb.ly/orSpX/" rel="noreferrer" target="_blank">
               <span className="text-secondary">MacBook Pro</span>
             </a> model by 
