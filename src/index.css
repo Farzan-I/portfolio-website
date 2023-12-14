@@ -39,6 +39,10 @@
   margin-right: 40px;
 }
 
+.justify-font {
+  text-align: justify;
+}
+
 .text-outline {
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #000000;
