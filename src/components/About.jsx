@@ -70,11 +70,11 @@ const About = () => {
         <br/>
 
         Here, I helped create the <a href="https://www.culturalsignatures.com/" rel="noreferrer" target="_blank">
-            <span className="text-secondary"> 
+            <span className="text-secondary hover:text-primary"> 
                company&apos;s website 
             </span>
           </a> and enjoyed it so much that I spent my spare time studying HTML, CSS, JavaScript, and Ruby. After the Covid-19 pandemic, I joined a <a href="https://www.makers.tech/" rel="noreferrer" target="_blank">
-            <span className="text-secondary"> 
+            <span className="text-secondary hover:text-primary"> 
               leading coding bootcamp 
             </span>
           </a> on a hybrid, full-time basis in order to expand my knowledge and actualise my dream of becoming a software engineer. 
