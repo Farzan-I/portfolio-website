@@ -77,7 +77,7 @@ const Projects = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-9 text-white-100 text-[17px] max-w-3xl leading-[30px]"
+          className="justify-font mt-9 text-white-100 text-[17px] max-w-3xl leading-[30px]"
         >
           Below are some projects that showcase my fullstack application skills, complex problem-solving, diverse technology collaboration and effective project management abilities. 
           Each one is summarised with links to code repositories and live demos. Happy to go through any of them in more detail! A full list of the projects I&apos;ve worked on can be found on  
@@ -87,7 +87,7 @@ const Projects = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="justify-font mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard 
             key={`project-${index}`}
