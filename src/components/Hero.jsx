@@ -27,6 +27,9 @@ const Hero = () => {
 
       <div className="scroll-indicator absolute xs:bottom-10 bottom-20">
         <a className='scroll-inner' href="#about">
+          <p>
+            Press me!
+          </p>
           <div className="w-[35px] h-[84px] rounded-3xl border-4 border-white-100 flex justify-center items-start p-2">
             <motion.dev 
               animate={{
@@ -40,9 +43,7 @@ const Hero = () => {
               className="w-3 h-3 rounded-full bg-white-100 mb-1"
             />
           </div>
-            <p>
-              Press me!
-            </p>
+            
         </a>
       </div>
     </section>
