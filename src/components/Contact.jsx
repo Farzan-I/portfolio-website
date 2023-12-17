@@ -78,7 +78,7 @@ const Contact = () => {
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="Let's get on first name basis"
+              placeholder="Get on a first name basis"
               className="bg-black-100 py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium hover:placeholder:text-white"
             />
           </label>
@@ -91,7 +91,7 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="No junk sent, ever. Promise"
+              placeholder="Check your spelling!"
               className="bg-black-100 py-4 px-6 placeholder:text-secondary text-white-100 rounded-lg outlined-none border-none font-medium hover:placeholder:text-white"
             />
           </label>
@@ -104,7 +104,7 @@ const Contact = () => {
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="....."
+              placeholder=".............."
               className="bg-black-100 py-4 px-6 placeholder:text-secondary text-white-100 rounded-lg outlined-none border-none font-medium hover:placeholder:text-white"
             />
           </label>
