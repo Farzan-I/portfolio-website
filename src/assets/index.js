@@ -5,8 +5,8 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import youtube from "./youtube.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
+import menu from "./menu.png";
+import close from "./close.png";
 
 import canva from "./tech/canva.png";
 import figma from "./tech/figma.png";
