@@ -9,7 +9,7 @@ const Navbar = ({toggle, setToggle}) => {
   const [active, setActive] = useState('');
   return (
     <div className='navbar-wrapper'>
-      <img src={toggle ? close : menu} alt="menu" className="hamburger w-[21px] h-[21px] object-contain cursor-pointer bg-black" onClick={() => setToggle(!toggle)}/>
+      <img src={toggle ? close : menu} alt="menu" className="hamburger w-[50px] h-[50px] object-contain cursor-pointer bg-black" onClick={() => setToggle(!toggle)}/>
         <div className={`${!toggle ? 'hidden' : 'flex' } p-6 black-gradient fixed top-20 right-0 mx-4 my-2 min-w[140px] z-10 rounded-xl`}>
           <ul className="list-none flex justify-end items-start flex-col gap-4">
             {navLinks.map((link) => (
@@ -17,9 +17,9 @@ const Navbar = ({toggle, setToggle}) => {
                 key={link.id}
                 className={`${
                   active === link.title
-                  ? "text-secondary"
+                  ? "text-primary"
                   : "text-white-100"
-                } hover:text-secondary font-poppins font-medium cursor-pointer text-[18px]`}
+                } hover:text-primary font-poppins font-medium cursor-pointer text-[18px]`}
                 onClick={() => {
                   setToggle(!toggle)
                   setActive(link.title)
