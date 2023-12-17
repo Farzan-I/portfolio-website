@@ -11,7 +11,7 @@ const App = () => {
         <div className="relative z-0 bg-black">
           <Navbar toggle={toggle} setToggle={setToggle}/>
             <div onClick={() => setToggle(false)}>
-              <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+              <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center viewing">
                 <Hero/>
               </div>
               <About/>
