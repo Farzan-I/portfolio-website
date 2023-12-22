@@ -145,8 +145,8 @@
 
 .red-yellow-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #10bfcf 1.9%, #b419ec 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #10bfcf 1.9%, #b419ec 97.5%);
+  background: linear-gradient(90.13deg, #FE0039 1.9%, #b419ec 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #FE0039 1.9%, #b419ec 97.5%);
 }
 
 .green-pink-gradient {
