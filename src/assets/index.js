@@ -38,6 +38,7 @@ import calc from "./nostalgic-calc.png";
 import netlify from "./netlify.png";
 import orchlab from "./orchlab.png";
 import portWebsite from "./portWebsite.png";
+import kohanceramic from "./kohanceramic.png";
 
 import linkedin from "./linkedin.png"
 import codewars from "./codewars.png"
@@ -79,6 +80,7 @@ export {
   netlify,
   orchlab,
   portWebsite,
+  kohanceramic,
   tailwind,
   linkedin, 
   codewars
