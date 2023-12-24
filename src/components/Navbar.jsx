@@ -7,6 +7,7 @@ import { logo, menu, close } from '../assets';
 
 const Navbar = ({toggle, setToggle}) => {
   const [active, setActive] = useState('');
+  
   return (
     <div className='navbar-wrapper'>
       <img src={toggle ? close : menu} alt="menu" className="hamburger w-[50px] h-[50px] object-contain cursor-pointer bg-black" onClick={() => setToggle(!toggle)}/>
