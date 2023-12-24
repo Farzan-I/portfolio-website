@@ -30,6 +30,7 @@ import {
   netlify,
   orchlab,
   portWebsite,
+  kohanceramic,
   tailwind
 } from "../assets";
 
@@ -329,6 +330,52 @@ const projects = [
     source_code_link_other: "https://www.youtube.com/watch?v=Q8ubu80GSio",
   },
   {
+    name: "Orchlab Strings",
+    description:
+      "Made for disabled, colour blind users, this app mimics string instruments & allows users to pluck or bow the 'strings'.",
+    tags: [
+      {
+        name: "Vue.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "External sounds",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Netlify",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: orchlab,
+    otherImage: netlify,
+    source_code_link: "https://github.com/gawainhewitt/orchlab-strings",
+    source_code_link_other: "https://orchlab-strings.netlify.app",
+  },
+  {
+    name: "Kohan Ceramic",
+    description:
+      "Displaying the extensive pottery collection of an up & coming ceramic artist, highlighting her pottery skills & vast experience",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Netlify",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: kohanceramic,
+    otherImage: netlify,
+    source_code_link: "https://github.com/Farzan-I/kohan-ceramic",
+    source_code_link_other: "https://kohanceramic.netlify.app/",
+  },
+  {
     name: "Nostalgic Calculator",
     description:
       "Simple, easy, nostalgic calculator web app that enables users to solve mathematical problems without any adverts or distractions.",
@@ -352,32 +399,9 @@ const projects = [
     source_code_link_other: "https://nostalgic-calculator.netlify.app",
   },
   {
-    name: "Orchlab Strings",
-    description:
-      "Made for disabled, colour blind users, this app mimics string instruments and allows users to pluck or bow the 'strings'.",
-    tags: [
-      {
-        name: "Vue.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "External sounds",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Netlify",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: orchlab,
-    otherImage: netlify,
-    source_code_link: "https://github.com/gawainhewitt/orchlab-strings",
-    source_code_link_other: "https://orchlab-strings.netlify.app",
-  },
-  {
     name: "Portfolio Website",
     description:
-      "Listed here for those curious to know how this website was sculpted. A lot of blood, sweat, caffeine and tears not mentioned!",
+      "Listed here for those curious to know how this website was sculpted. A lot of blood, sweat, caffeine & tears not mentioned!",
     tags: [
       {
         name: "React",
