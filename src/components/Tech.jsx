@@ -22,7 +22,7 @@ const Tech = () => {
         <ul className="mt-5 list-disc ml-5 flex justify-center flex-wrap space-x-8 mb-6">
           {skills.map((skill, index) => (
             <li
-              className="hover:text-primary hover:scale-110 transition-transform duration-300"
+              className="hover:text-primary hover:scale-110 transition-transform duration-300 cursor-pointer"
               key={index}
             >
               {skill}
@@ -39,7 +39,7 @@ const Tech = () => {
 
       <div className="mt-10 flex flex-row flex-wrap justify-center gap-10">
         { technologies.map((technology) => (
-          <div className="w-28 h-28" key={technology.name}>
+          <div className="w-28 h-28  cursor-pointer" key={technology.name}>
             <BallCanvas icon={technology.icon}/>
           </div>
         ))}
