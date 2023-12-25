@@ -1,5 +1,5 @@
 import {
-  backend,
+  projman,
   creator,
   web,
   javascript,
@@ -68,11 +68,11 @@ const services = [
   },
   {
     title: "Designer / Creator",
-    icon: backend,
+    icon: creator,
   },
   {
     title: "Project Manager",
-    icon: creator,
+    icon: projman,
   }
 ];
 
