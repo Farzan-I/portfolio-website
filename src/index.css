@@ -39,7 +39,7 @@
   top: 0;
   right: 0;
   z-index: 1000;
-  margin-top: 15px;
+  margin-top: 18px;
   margin-right: 40px;
 }
 
@@ -145,8 +145,8 @@
 
 .red-yellow-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #FE0039 1.9%, #b419ec 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #FE0039 1.9%, #b419ec 97.5%);
+  background: linear-gradient(90.13deg, #FE0039 1.9%, #e000fe 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #FE0039 1.9%, #e000fe 97.5%);
 }
 
 .green-pink-gradient {
