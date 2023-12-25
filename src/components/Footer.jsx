@@ -20,7 +20,7 @@ const Footer = () => {
             <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="noreferrer" target="_blank">
               <span className="text-secondary hover:text-primary"> Creative Commons Attribution-NonCommercial</span>
             </a>. All product & company names are trademarks™️ or registered®️ trademarks of their respective holders.
-            Use of them does not imply any affiliation with or endorsement by them. Navbar menu icons by Icons8.
+            Use of them does not imply any affiliation with or endorsement by them. Icons by Icons8.
           </p>
         </div>
         <div className={`${styles.paddingX} flex items-center gap-1`}>
