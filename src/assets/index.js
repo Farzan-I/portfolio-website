@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
+import projman from "./projman.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -45,7 +45,7 @@ import codewars from "./codewars.png"
 
 export {
   logo,
-  backend,
+  projman,
   creator,
   mobile,
   web,
