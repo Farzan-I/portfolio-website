@@ -138,8 +138,8 @@
   background: linear-gradient(-90deg, #FE0039 0%, rgba(0, 0, 0, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #ff0339 -40%,
-    rgb(31, 1, 1) 100%
+    #ff0339 20%,
+    rgb(63, 3, 3) 100%
   );
 }
 
