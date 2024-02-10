@@ -42,6 +42,7 @@ import kohanceramic from "./kohanceramic.png";
 
 import linkedin from "./linkedin.png"
 import codewars from "./codewars.png"
+import buymeacoffee from "./buymeacoffee.png"
 
 export {
   logo,
@@ -83,5 +84,6 @@ export {
   kohanceramic,
   tailwind,
   linkedin, 
-  codewars
+  codewars,
+  buymeacoffee,
 };

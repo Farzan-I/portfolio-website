@@ -1,5 +1,5 @@
 import { styles } from '../styles';
-import { github, linkedin, codewars } from '../assets';
+import { github, linkedin, codewars, buymeacoffee } from '../assets';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -24,14 +24,20 @@ const Footer = () => {
           </p>
         </div>
         <div className={`${styles.paddingX} flex items-center gap-1`}>
+          <Link to="https://www.linkedin.com/in/farzanimanzadeh/" target="_blank" rel="noreferrer">
+            <img src={linkedin} alt="LinkedIn" width={50} height={50}/>
+          </Link>
+          <br/>
           <Link to="https://github.com/Farzan-I" target="_blank" rel="noreferrer">
             <img src={github} alt="GitHub" width={50} height={50}/>
           </Link>
+          <br/>
           <Link to="https://www.codewars.com/users/fazzy15" target="_blank" rel="noreferrer">
             <img src={codewars} alt="Codewars" width={40} height={40}/>
           </Link>
-          <Link to="https://www.linkedin.com/in/farzan-imanzadeh-079a95a3/" target="_blank" rel="noreferrer">
-            <img src={linkedin} alt="LinkedIn" width={50} height={50}/>
+          <br/>
+          <Link to="" target="_blank" rel="noreferrer">
+            <img src={buymeacoffee} alt="BuyMeACoffee" width={30} height={30}/>
           </Link>
         </div>
       </div>
