@@ -36,7 +36,7 @@ const Footer = () => {
             <img src={codewars} alt="Codewars" width={40} height={40}/>
           </Link>
           <br/>
-          <Link to="" target="_blank" rel="noreferrer">
+          <Link to="https://www.buymeacoffee.com/farzan" target="_blank" rel="noreferrer">
             <img src={buymeacoffee} alt="BuyMeACoffee" width={30} height={30}/>
           </Link>
         </div>
